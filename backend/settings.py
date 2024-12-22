@@ -95,16 +95,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydemo',
-        'USER': 'superuser',
-        'PASSWORD': 'mysuperuser',
-        'HOST': 'mydemo.c1asac4y4rwk.ap-south-1.rds.amazonaws.com',
-        'PORT': '5432',
-    }
-}
+
 
 
 # Password validation
