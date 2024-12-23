@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #         'NAME': 'mydemo',
 #         'USER': 'mysuperuser',
 #         'PASSWORD': 'mysuperuser',
-#         'HOST': 'mydemo.c1asac4y4rwk.ap-south-1.rds.amazonaws.com',
+#         'HOST': '',
 #         'PORT': '5432',
 #     }
 # }
