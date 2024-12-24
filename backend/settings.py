@@ -84,16 +84,16 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 #Replace name, Password, Host with your RDS Database name, user, password, host.
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'mydemo',
-#         'USER': 'mysuperuser',
-#         'PASSWORD': 'mysuperuser',
-#         'HOST': '',
-#         'PORT': '5432',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'backenddemo',
+        'USER': 'mysuperuser',
+        'PASSWORD': 'mysuperuser',
+        'HOST': 'backenddemo.c1asac4y4rwk.ap-south-1.rds.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 
 
